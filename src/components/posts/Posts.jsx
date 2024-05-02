@@ -14,16 +14,16 @@ const Posts = () => {
       name: "John Doe",
       userId: 1,
       profilePic:
-        "https://images.pexels.com/photos/13916254/pexels-photo-13916254.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "jdnfakj fjdakh hdfiah dhfiah  afhdas hiuhasiuhf aisdh fiasadhfihas  sdhfiahs fdhfi jkaks ",
-      img: "https://images.pexels.com/photos/13916254/pexels-photo-13916254.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600",
     },
     {
       id: 2,
       name: "Jane Doe",
       userId: 2,
       profilePic:
-        "https://images.pexels.com/photos/13916254/pexels-photo-13916254.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "afj hfajk dajjahfu jhasfh hush dajhsfjk dhfaih haskhdfai jhadfuh hfhiua dfhiauhs",
     },
   ];
