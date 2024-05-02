@@ -17,12 +17,10 @@ $themes: (
   ),
 );
 
-
-
 @mixin themify($themes) {
   @each $theme, $map in $themes {
     .theme-#{$theme} & {
-      // $theme-map initialization removed from here
+      $theme-map: () !global;
       @each $key, $submap in $map {
         $value: map-get(map-get($themes, $theme), "#{$key}");
         $theme-map: map-merge(
@@ -33,7 +31,7 @@ $themes: (
         ) !global;
       }
       @content;
-      // $theme-map reset removed from here
+      $theme-map: null !global;
     }
   }
 }
@@ -42,5 +40,13 @@ $themes: (
   @return map-get($theme-map, $key);
 }
 
-
-
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 960px) {
+    @content;
+  }
+}
